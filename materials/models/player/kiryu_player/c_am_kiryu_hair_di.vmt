@@ -1,0 +1,54 @@
+VertexLitGeneric
+{
+	$basetexture "models/player/kiryu_player/c_am_kiryu_hair_di"
+	$bumpmap "models/player/kiryu_player/c_am_kiryu_hair_nm"
+
+	$alphatest 1
+
+	$phong 1
+	$phongfresnelranges "[0.04 0.52 1]"
+	$phongtint "[0.31 0.31 0.31]"
+	$phongexponent 7
+	$phongboost 0.98
+	$phongalbedoboost 0.78
+
+	$allowalphatocoverage 1
+	$blendframes 0
+$cloakpassenabled 1
+	$one 1
+	$yellow 0
+
+	Proxies
+	{
+		spy_invis
+		{
+		}
+
+		invis
+		{
+		}
+
+		AnimatedTexture
+		{
+			animatedtexturevar "$detail"
+			animatedtextureframenumvar "$detailframe"
+			animatedtextureframerate 30
+		}
+
+		BurnLevel
+		{
+			resultVar "$detailblendfactor"
+		}
+
+		YellowLevel
+		{
+			resultVar "$yellow"
+		}
+
+		Equals
+		{
+			srcVar1 "$yellow"
+			resultVar "$color2"
+		}
+	}
+}
