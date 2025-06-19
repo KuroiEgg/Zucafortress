@@ -1,7 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "\models\player\tsuki/blank"
-	"$alphatest" 1
-	"$alphatestreference" "1"
-	"$alpha" 0
-}
