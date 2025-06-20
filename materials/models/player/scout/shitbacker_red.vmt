@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/scout/shitbacker_blue"
+	"$nolod" 1
+	"$nocull" 1
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+}
