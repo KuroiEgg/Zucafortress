@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\homestuck\commons\white"
+	"$bumpmap" "models\homestuck\commons\flatnormal"
+	
+	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost" "0"	
+
+	"$lightwarptexture" "models/player/pyro/Lambert_lightwarp"
+
+}

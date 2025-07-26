@@ -1,0 +1,44 @@
+"SDK_VertexLitGeneric"
+{
+	"$basetexture" "models\homestuck\john\john_sheet"
+
+	"$bumpmap" "models\homestuck\commons\flatnormal"
+	
+	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost" "0"	
+	
+	"$yellow" "0"
+	"$one" "1"
+	
+	"$lightwarptexture" "models/player/pyro/Lambert_lightwarp"
+	
+	"$cloakPassEnabled" "1"
+
+	"360?$color2" "[ 0.9 0.8 0.8 ]"
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}	
+}
