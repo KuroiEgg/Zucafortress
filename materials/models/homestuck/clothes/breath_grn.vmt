@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\models\homestuck\clothes\breath_red.vmt"
-	
-	insert
-	{
-	"$baseTexture" "models\homestuck\clothes\breath_grn"
-	}
-}
